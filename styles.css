@@ -213,7 +213,6 @@ main{
 .views {
     font-size: 20px;
     color: #818282;
-    /* float: right; */
 }
 
 .share{
@@ -221,14 +220,28 @@ main{
     color: #7F7F7F;
 }
 
-.sh i{
+.sh img{
     padding-right: 1%;
+    width: 35px;
+    color:  #7F7F7F;
 }
 
 .sh {
     padding-right: 2%;
     cursor: pointer;
     font-size: 12px;
+}
+
+.share button{
+    text-decoration: none;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    color: #7F7F7F;
+}
+
+.share button img{
+    padding-right: 18%;
 }
 
 .like, .dislike {
@@ -240,6 +253,10 @@ main{
     padding-top: 2px;
 }
 
+.like img, .dislike img {
+    width: 35px;
+    padding-right: 14%; 
+}
 
 .publish{
     margin-top: 20px;
