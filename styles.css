@@ -5,6 +5,8 @@
 
 body{
     background-color: #F1F1F1;
+    max-width: 1024px;
+    margin: auto;
 }
 
 html{
