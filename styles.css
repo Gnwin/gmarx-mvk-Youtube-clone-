@@ -270,6 +270,9 @@ main{
     text-align: center;
     color:#7D7D7D;
     cursor: pointer;
+    padding: 5px 10px;
+    text-align: center;
+    cursor: pointer;
 }
 
 .load{
@@ -337,7 +340,24 @@ main{
     text-decoration: none;
     font-weight: bolder;
     color: #222222;
-} 
+}
+
+.autoplay{
+    float: right;
+}
+
+.auto{
+    color: #ABABAB;
+    font-weight: bolder;
+}
+
+.fa-exclamation-circle{
+    color: #808080;
+}
+
+.vid a img{
+    width: 100%;
+}
 
 .vid-info .title{
     font-size: 1rem;
@@ -348,12 +368,6 @@ main{
     color: #808080;
     font-size: 0.8em;
     margin-bottom: 0;
-}
-
-.show{
-    padding: 5px 10px;
-    text-align: center;
-    cursor: pointer;
 }
 
 footer {
