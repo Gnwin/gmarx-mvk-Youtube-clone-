@@ -211,6 +211,8 @@ main{
 }
 
 .views {
+    display: flex;
+    align-items: flex-end;
     font-size: 20px;
     color: #818282;
 }
@@ -264,10 +266,19 @@ main{
     padding: 20px;
 }
 
+.show{
+    text-align: center;
+    color:#7D7D7D;
+    cursor: pointer;
+}
+
 .load{
     margin-top: 20px;
     background-color: #fff;
     padding: 80px;
+    text-align: center;
+    color:#7D7D7D;
+    cursor: pointer;
 }
 
 .videowrapper {
