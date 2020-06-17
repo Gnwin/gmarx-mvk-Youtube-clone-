@@ -1,7 +1,20 @@
+/*** Project Meta ***/
+
+/* css reset */
+/* general */
+/* header */
+/* main content */
+/* footer */
+
+
+/** css reset **/
+
 * {
     margin: 0;
     padding: 0;
 }
+
+/** general **/
 
 body{
     background-color: #F1F1F1;
@@ -10,6 +23,8 @@ body{
 html{
     font-size: 14px;
 }
+
+/** header navbar **/
 
 header {
     display: flex;
@@ -56,9 +71,6 @@ header {
     width: 18px;
 }
 
-main{
-    margin-bottom: 200px;
-}
 
 .search {
     display: flex;
@@ -94,6 +106,12 @@ main{
     border: none;
     color: white;
     border-radius: 4px;
+}
+
+/** main content **/
+
+main{
+    margin-bottom: 200px;
 }
 
 .msg {
@@ -369,6 +387,9 @@ main{
     font-size: 0.8em;
     margin-bottom: 0;
 }
+
+
+/** footer **/
 
 footer {
     display: flex;
