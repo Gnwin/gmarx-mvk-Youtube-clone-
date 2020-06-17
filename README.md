@@ -2,9 +2,10 @@
 
 This is project which focuses on cloning the exact design of youtube start page mockup below with just html and css only. Come and follow the instructions to  download the source code and experience it so that I bet you will never notice any variation from the actual youtube page.
 
-# mockup
+# Mockup
 [link to clone](http://archive.today/Bss88)
 
+# Screenshot
 ![screenshot](./assets/images/others/youtubeClone.png)
 
 Additional description about the project and its features.
